@@ -1,4 +1,4 @@
-package part6.ch02.v02;
+package part6.ch02.v02_v09;
 
 
 public interface Ilist<T> {
