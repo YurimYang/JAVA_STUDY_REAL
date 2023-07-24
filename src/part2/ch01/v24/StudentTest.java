@@ -1,4 +1,5 @@
 package part2.ch01.v24;
+import part2.ch01.v24.Student;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -13,9 +14,9 @@ public class StudentTest {
         studentKim.addSubject("수학", 85);
         studentKim.addSubject("영어", 100);
 
-        studentLee.showStudentInfo();
+        studentLee.showStudentInfos();
         System.out.println("======================================");
-        studentKim.showStudentInfo();
+        studentKim.showStudentInfos();
     }
 
 }
