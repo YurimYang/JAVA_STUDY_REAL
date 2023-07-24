@@ -11,7 +11,9 @@ public class Book {
         this.title = title;
         this.author = author;
     }
-
+    public void showBookInfos() {
+        System.out.println(title + "," +author);
+    }
     public String getTitle() {
         return title;
     }
@@ -28,7 +30,5 @@ public class Book {
         this.author = author;
     }
 
-    public void showBookInfo() {
-        System.out.println(title + "," +author);
-    }
+
 }

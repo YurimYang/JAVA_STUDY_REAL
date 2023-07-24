@@ -1,4 +1,5 @@
 package part2.ch01.v21;
+import part2.ch01.v21.Book;
 
 public class ObjectCopyTest {
 
@@ -17,7 +18,7 @@ public class ObjectCopyTest {
 
         System.out.println("======copy library=========");
         for( Book book : copyLibaray ) {
-            book.showBookInfo();
+            book.showBookInfos();
         }
 
         library[0].setTitle("나목");
@@ -25,13 +26,13 @@ public class ObjectCopyTest {
 
         System.out.println("======library=========");
         for( Book book : library) {
-            book.showBookInfo();
+            book.showBookInfos();
         }
 
         System.out.println("======copy library=========");
 
         for( Book book : copyLibaray) {
-            book.showBookInfo();
+            book.showBookInfos();
         }
     }
 }
