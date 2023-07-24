@@ -1,5 +1,6 @@
 package part2.ch01.v24;
 
+
 public class Subject {
     private String name;
     private int scorePoint;
